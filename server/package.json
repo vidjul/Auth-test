@@ -1,0 +1,30 @@
+{
+  "name": "auth-test",
+  "version": "1.0.0",
+  "description": "Authentication system with JWT and react-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidjul/Auth-test.git"
+  },
+  "author": "Vidushan CHOORIYAKUMARAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidjul/Auth-test/issues"
+  },
+  "homepage": "https://github.com/vidjul/Auth-test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.12",
+    "nodemon": "^1.17.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
